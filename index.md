@@ -119,7 +119,7 @@ workshop is only open to people from a particular institution.
 {% endif %}
 
 {% comment %}
-LLOCATION
+LOCATION
 
 This block displays the address and links to maps showing directions
 if the latitude and longitude of the workshop have been set.  You
@@ -146,8 +146,7 @@ address.
 {% elsif online == "true_public" %}
 <p id="where">
   <strong>Where:</strong>
-  online at <a href="{{page.address}}">{{page.address}}</a>.
- If needed, the password is **202020**.
+  We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is <a href="{{page.address}}">{{page.address}}</a>.  If needed, the password is <strong>202020</strong>
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
