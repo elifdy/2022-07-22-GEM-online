@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "National GEM Consortium"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: https://carpentries.zoom.us/my/carpentriesroom3   # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "US"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude:         # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -119,7 +119,7 @@ workshop is only open to people from a particular institution.
 {% endif %}
 
 {% comment %}
-LOCATION
+LLOCATION
 
 This block displays the address and links to maps showing directions
 if the latitude and longitude of the workshop have been set.  You
@@ -147,12 +147,12 @@ address.
 <p id="where">
   <strong>Where:</strong>
   online at <a href="{{page.address}}">{{page.address}}</a>.
-  If you need a password or other information to access the training,
-  the instructor will pass it on to you before the workshop.
+ If needed, the password is **202020**.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
-  <strong>Where:</strong> Zoom: https://carpentries.zoom.us/my/carpentriesroom3 \nPassword: 202020.
+  <strong>Where:</strong> This training will take place online.
+  The instructors will provide you with the information you will need to connect to this meeting.
 </p>
 {% endif %}
 
