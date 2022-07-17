@@ -146,7 +146,7 @@ address.
 {% elsif online == "true_public" %}
 <p id="where">
   <strong>Where:</strong>
-  We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is <a href="{{page.address}}">{{page.address}}</a>.  If needed, the password is <strong>202020</strong>
+  We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is <a href="{{page.address}}">{{page.address}}</a>.  If needed, the password is <strong>202020</strong>.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
